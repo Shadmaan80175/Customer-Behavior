@@ -1,7 +1,7 @@
 
 ### Project Title: Customer Behavior Analysis
 A comprehensive data analysis project that processes customer shopping data, loads it into a SQL Server database, and performs in-depth analysis to uncover business insights. The project demonstrates a full ETL (Extract, Transform, Load) pipeline and analytical capabilities.
-[Customer Behavior Analysis.pdf](https://github.com/user-attachments/files/23261068/Customer.Behavior.Analysis.pdf)
+
  Project Structure & Workflow
 The project can be broken down into four main phases:
 
@@ -12,7 +12,7 @@ Database Integration (SQL Server)
 Data Loading & Validation (Python/SQL)
 
 Business Intelligence & SQL Analysis
-
+[Customer Behavior Analysis.pdf](https://github.com/user-attachments/files/23261068/Customer.Behavior.Analysis.pdf)
  Technologies Used :
 Category	Technologies
 Programming Language	Python
