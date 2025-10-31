@@ -1,6 +1,7 @@
- ### Project Title: Customer Behavior Analysis
-A comprehensive data analysis project that processes customer shopping data, loads it into a SQL Server database, and performs in-depth analysis to uncover business insights. The project demonstrates a full ETL (Extract, Transform, Load) pipeline and analytical capabilities.
 
+### Project Title: Customer Behavior Analysis
+A comprehensive data analysis project that processes customer shopping data, loads it into a SQL Server database, and performs in-depth analysis to uncover business insights. The project demonstrates a full ETL (Extract, Transform, Load) pipeline and analytical capabilities.
+[Customer Behavior Analysis.pdf](https://github.com/user-attachments/files/23261068/Customer.Behavior.Analysis.pdf)
  Project Structure & Workflow
 The project can be broken down into four main phases:
 
@@ -12,7 +13,7 @@ Data Loading & Validation (Python/SQL)
 
 Business Intelligence & SQL Analysis
 
-🛠️ Technologies Used
+ Technologies Used :
 Category	Technologies
 Programming Language	Python
 Data Manipulation	Pandas, NumPy
@@ -21,7 +22,7 @@ Database System	Microsoft SQL Server
 Analysis & Querying	SQL
 Data Visualization	Microsoft Power BI
 
-📊 Phase 1: Data Preprocessing with Python
+ Phase 1: Data Preprocessing with Python
 This phase focuses on cleaning and preparing the raw data for analysis.
 
 Key Steps:
@@ -44,7 +45,7 @@ Created an age_group column (Young Adult, Adult, Middle-aged, Senior) using quan
 
 Created a purchase_frequency_days column by mapping textual frequencies (e.g., 'Weekly', 'Annually') to a numerical value representing the days between purchases.
 
-🗄️ Phase 2: Database Integration
+ Phase 2: Database Integration
 This phase involves connecting the Python script to a SQL Server instance to store and manage the data.
 
 Key Components:
@@ -61,7 +62,7 @@ pyodbc: Used as a reliable, low-level fallback method for direct SQL execution, 
 
 Robust Error Handling: The code includes comprehensive try-except blocks to gracefully handle connection and data loading errors.
 
-📥 Phase 3: Data Loading & Validation
+ Phase 3: Data Loading & Validation
 The cleaned DataFrame is loaded into a SQL Server table, with checks to ensure data integrity.
 
 Process:
@@ -76,7 +77,7 @@ Uses a cursor to INSERT rows one by one from the DataFrame.
 
 Verification: After loading, a COUNT(*) query is run to verify that all rows were successfully transferred from Python to SQL Server.
 
-🔍 Phase 4: SQL Analysis & Business Intelligence
+ Phase 4: SQL Analysis & Business Intelligence
 A series of SQL queries were executed to extract meaningful insights from the customer data.
 
 Sample Analysis Questions:
@@ -101,7 +102,7 @@ Q9: Are repeat buyers more likely to subscribe?
 
 Q10: What is the revenue contribution of each age group?
 
-📈 Results & Visualization
+ Results & Visualization
 The final part of the PDF shows a Customer Behavior Dashboard, visualizing key metrics like:
 
 Number of Customers
@@ -114,7 +115,7 @@ Revenue and Sales breakdowns by Category, Age Group, and Subscription Status.
 
 This indicates the project's output was used to create a business intelligence dashboard (likely in tools like Power BI, Tableau, or similar).
 
-💡 How to Run This Project
+ How to Run This Project
 Prerequisites:
 
 Python 3.x with pandas, pyodbc, sqlalchemy installed.
