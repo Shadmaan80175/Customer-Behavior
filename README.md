@@ -116,6 +116,16 @@ Average Review Rating
 
 Revenue and Sales breakdowns by Category, Age Group, and Subscription Status.
 
+Key Metrics Cards: Displaying total customers, average purchase amount, and average review rating
+
+Donut Chart: Showing percentage of customers by subscription status
+
+Bar Charts: For revenue and sales by category, and revenue by age group
+
+Slicers/Filters: For subscription status, gender, category, and shipping type
+
+Clean, Professional Layout: Organized for business stakeholder consumption
+
 This indicates the project's output was used to create a business intelligence dashboard (likely in tools like Power BI, Tableau, or similar).
 
  How to Run This Project
