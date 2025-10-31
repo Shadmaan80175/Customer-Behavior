@@ -12,7 +12,10 @@ Database Integration (SQL Server)
 Data Loading & Validation (Python/SQL)
 
 Business Intelligence & SQL Analysis
+
 [Customer Behavior Analysis.pdf](https://github.com/user-attachments/files/23261068/Customer.Behavior.Analysis.pdf)
+ 
+
  Technologies Used :
 Category	Technologies
 Programming Language	Python
